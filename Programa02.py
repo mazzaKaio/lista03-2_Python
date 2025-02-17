@@ -29,4 +29,4 @@ elif pesoLutador >= 52 and pesoLutador < 65:
 else:
     categoria = "Peso Pesado"
 
-    
+print("\nLutador: {}\nCom {} kilos!\nNa sua categoria de: {}".format(nomeLutador, pesoLutador, categoria))
