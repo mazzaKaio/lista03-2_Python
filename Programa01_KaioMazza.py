@@ -21,3 +21,6 @@ elif grauRisco.__eq__("AL"):
 
 else:
     print("Grau de risco inválido!")
+
+print("\nFim do programa!")
+print("Kaio Gomes do Nascimento Mazza")

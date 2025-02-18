@@ -13,3 +13,6 @@ if qntEleitores >= 200000:
         print("Não terá segundo terno no munícipio de '{}'!".format(nomeMunicipio))
     else:
         print("Terá segundo turno no munícipio de '{}'!".format(nomeMunicipio))
+
+print("\nFim do programa!")
+print("Kaio Gomes do Nascimento Mazza")

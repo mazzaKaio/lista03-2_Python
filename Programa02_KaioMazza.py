@@ -30,3 +30,6 @@ else:
     categoria = "Peso Pesado"
 
 print("\nLutador: {}\nCom {} kilos!\nNa sua categoria de: {}".format(nomeLutador, pesoLutador, categoria))
+
+print("\nFim do programa!")
+print("Kaio Gomes do Nascimento Mazza")

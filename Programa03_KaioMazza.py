@@ -13,3 +13,6 @@ if valorParcela < porcentagemSalario:
     print("Empréstimo concedido!")
 else:
     print("Empréstimo não concedido!")
+
+print("\nFim do programa!")
+print("Kaio Gomes do Nascimento Mazza")

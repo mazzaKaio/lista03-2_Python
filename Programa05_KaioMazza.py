@@ -13,3 +13,6 @@ else:
 
 precoVenda = precoProduto + (precoProduto * margemBruta)
 print("\nO preço do produto é: {}\nO preço de venda segunda a margem bruta é: {}".format(precoProduto, precoVenda))
+
+print("\nFim do programa!")
+print("Kaio Gomes do Nascimento Mazza")

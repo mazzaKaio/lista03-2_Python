@@ -26,3 +26,6 @@ else:
     print("Gênero inserido não aceito!")
 
 print("\nNome informado: {}\nIdade informada: {}\nGênero informado: {}\nAceito ao exército: {}".format(nomeUsuario, idadeUsuario, generoUsuario, isAceito))
+
+print("\nFim do programa!")
+print("Kaio Gomes do Nascimento Mazza")
