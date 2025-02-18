@@ -5,9 +5,6 @@ Para o valor, deve ser um número real.
 """
 
 grauRisco = input("Digite o grau de risco desejado ['BX' ou 'AL']: ").upper()
-if grauRisco != 'BX' or 'AL':
-    print("Grau de risco não identificado!")
-
 investimentoDesejado = float(input("Digite o valor que você deseja investir: "))
 
 if grauRisco.__eq__("BX"):
@@ -21,3 +18,6 @@ elif grauRisco.__eq__("AL"):
         print("Recomendamos que você invista em BITCOINS!")
     else:
         print("Recomendamos que você invista em AÇÕES!")
+
+else:
+    print("Grau de risco inválido!")
