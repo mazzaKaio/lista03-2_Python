@@ -9,15 +9,15 @@ Escreva um programa que leia 3 dados de entrada: Nome da pessoa, idade e gênero
 
 nomeUsuario = input("Digite seu nome: ")
 idadeUsuario = int(input("Digite sua idade: "))
-generoUsuario = input("Digite seu gênero [m/f]: ").lower()
+generoUsuario = input("Digite seu gênero [M/F]: ").upper()
 
-if generoUsuario.__eq__("m"):
+if generoUsuario.__eq__("M"):
     if idadeUsuario >= 18 and idadeUsuario <= 39:
         isAceito = "ACEITO!"
     else:
         isAceito = "NÂO ACEITO!"
 
-elif generoUsuario.__eq__("f"):
+elif generoUsuario.__eq__("F"):
     if idadeUsuario >= 21 and idadeUsuario <= 34:
         isAceito = "ACEITO!"
     else:
