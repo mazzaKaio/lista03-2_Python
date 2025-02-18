@@ -4,7 +4,7 @@ Deve ser lido no teclado na forma BX ou AL risco. Se for fornecido algo diferent
 Para o valor, deve ser um número real.
 """
 
-grauRisco = input("Digite o grau de risco desejado ['BX' ou 'AL']: ").casefold()
+grauRisco = input("Digite o grau de risco desejado ['BX' ou 'AL']: ").upper()
 if grauRisco != 'BX' or 'AL':
     print("Grau de risco não identificado!")
 
